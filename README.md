@@ -1,16 +1,50 @@
 # todo_app
 
-A new Flutter project.
+ToDo application is a task management app to help you stay organized and manage your day-to-day.
+
+## Features
+
+* Sorting the entries
+* Adding the todo's
+* Editing the todo's
+* Deleting the todo's
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+follow the instructions from the
+Flutter site [here](https://flutter.dev/docs/get-started/install).
 
-A few resources to get you started if this is your first Flutter project:
+To build from source fetch the latest from master:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```
+git clone https://github.com/rizwika94/Todo.git
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+From the anytime directory fetch the dependencies:
+
+```
+flutter packages get
+```
+
+Then either run:
+
+```
+flutter run
+```
+
+Or build:
+
+```
+flutter build apk
+```
+
+## App Architecture (Clean Architecture with Provider Pattern)
+
+It is based on a layered approach:
+
+* UI - UI is presented to the user 
+* Provider - Handles the state for the UI.
+         
+
+
+
